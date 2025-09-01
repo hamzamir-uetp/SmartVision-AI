@@ -20,6 +20,7 @@ This project was built to demonstrate a full-stack application integrating a mod
 * **Deployment Tools:** VS Code
   
 ## 🏗️ Architecture Overview
+```mermaid
 graph TB
     A[User Browser] --> B[React Frontend]
     B --> C[Express.js API Server]
@@ -29,7 +30,7 @@ graph TB
     E --> G[Image Storage]
     F --> B
     G --> B
-
+```
 
 ## Getting Started
 
@@ -64,5 +65,37 @@ Before you begin, ensure you have the following installed on your machine:
 3.  **Analyze an image:**
     Drag and drop an image onto the designated area or click to select one, then click "Analyze Image." The analysis results will be displayed on the screen.
 
+## 🚀 Deployment
+VS Code → GitHub → Azure App Service
+
+### **Quick Deployment Guide**
+
+1. **Deploy to Azure** (using VS Code):
+- Install "Azure App Service" extension
+- Sign in to Azure account
+- Right-click project → "Deploy to Web App"
+- Select your Azure subscription and app service
+
+2. **Push to GitHub** (from VS Code):
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/your-username/smartvision-ai.git
+git push -u origin main
+```
+
+3. **Configure Environment Variables** (in Azure Portal):
+- Go to: App Service → Configuration → Application settings
+- Add:
+```bash
+VISION_ENDPOINT = "your_azure_vision_endpoint"
+VISION_KEY = "your_azure_vision_key" 
+STORAGE_CONNECTION_STRING = "your_azure_storage_connection_string"
+NODE_ENV = "production"
+```
+ 
 ## Demo
-**Project Link:** [SmartVision AI](https://smartvision-app-dkgwgmfpgnbhanck.eastasia-01.azurewebsites.net/)
+**🌐 Live URL:** [SmartVision AI](https://smartvision-app-dkgwgmfpgnbhanck.eastasia-01.azurewebsites.net/)
+**✅ Status:** Fully deployed and operational.
