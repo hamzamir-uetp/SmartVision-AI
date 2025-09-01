@@ -97,5 +97,5 @@ NODE_ENV = "production"
 ```
  
 ## Demo
-**🌐 Live URL:** [SmartVision AI](https://smartvision-app-dkgwgmfpgnbhanck.eastasia-01.azurewebsites.net/)
-**✅ Status:** Fully deployed and operational.
+- **🌐 Live URL:** [SmartVision AI](https://smartvision-app-dkgwgmfpgnbhanck.eastasia-01.azurewebsites.net/)
+- **✅ Status:** Fully deployed and operational.
