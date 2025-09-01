@@ -54,4 +54,4 @@ Contributions are what make the open-source community such an amazing place to l
 5.  Open a Pull Request
 
 ## Demo
-**Project Link:** [smartvision-app-dkgwgmfpgnbhanck.eastasia-01.azurewebsites.net](https://smartvision-app-dkgwgmfpgnbhanck.eastasia-01.azurewebsites.net/))
+**Project Link:** [SmartVision AI](https://smartvision-app-dkgwgmfpgnbhanck.eastasia-01.azurewebsites.net/))
